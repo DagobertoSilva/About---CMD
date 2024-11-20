@@ -5,19 +5,25 @@
 1.   cd - change directory
 ```bash
 C:\Users> cd destinationdirectory/myfolder
+```
 
+```bash
 C:\Users\destinationdirectory\myfolder>
 ```
 -> command alternative
 ```bash
 C:\Users> chdir destinationdirectory/myfolder
+```
 
+```bash
 C:\Users\destinationdirectory\myfolder>
 ```
 ->return to previous directory
 ```bash
 C:\Users> cd ..
+```
 
+```bash
 C:\>
 ```
 
