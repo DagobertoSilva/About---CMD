@@ -1,8 +1,8 @@
 # About-CMD
 ## This repository contains studies about Windows CMD
 
-### commands
-1.   cd - change directory
+### General configuration and management commands
+1. change directory
 ```bash
 C:\Users> cd destinationdirectory/myfolder
 ```
@@ -151,3 +151,100 @@ For more information on tools, see the command line reference in online help.
 ```bash
 C:\Users\John>help CommandName
 ```
+
+4. clear the screen
+### Before
+C:\Users\John> dir
+```
+```bash
+The volume in drive C is bumblebee  
+The Volume Serial Number is XX00-0X0Y
+Directory of C:\Users\John
+
+11/20/2024  03:45 PM    <DIR>          .  
+11/20/2024  03:40 PM    <DIR>          ..  
+11/20/2024  03:30 PM           320.450 ITA2025_Guide.pdf  
+11/20/2024  03:44 PM           512.700 Study_Schedule.xlsx  
+               2 File(s)        833.150 bytes  
+               2 Dir(s)    85.324.211.200 bytes free
+```
+```bash
+C:\Users\John>cls
+```
+### After
+
+```bash
+C:\Users\John> 
+
+
+
+
+
+
+
+
+
+```
+
+5. shows the current date and allows you to change the system date
+```bash
+C:\Users\John>date
+```
+```bash
+C:\Users\John>date
+Current date: 11/21/2024
+Enter the new date: (mm-dd-yy)
+
+```
+#### If you don't want to change it, just click the ENTER key again.
+
+6. similar to the previous command, it allows you to change and modify the time
+```bash
+C:\Users\John>time
+```
+```bash
+C:\Users\John>time
+Current time:  1:05:56.44 AM  
+Enter the new time:
+
+```
+#### If you don't want to change it, just click the ENTER key again.
+
+7. show computer name
+```bash
+C:\Users\John>hostname
+LAPTOP-0XXXX0xx
+```
+8. show the current version of your machine
+```bash
+C:\Users\John>ver
+Microsoft Windows [versão 10.0.22631.4317]
+```
+
+9. Close CMD
+```bash
+C:\Users\John>exit
+```
+
+10. change CMD colors
+```bash
+C:\Users\John>color backgroundcolorFontColor
+```
+### example
+```bash
+C:\Users\John>color 0A
+```
+### for more colors, seek help with the help command
+
+#### to return to the default color just type the word color
+```bash
+C:\Users\John>color
+```
+
+11. turn off the computer
+
+```bash
+C:\Users\John>shutdown 
+```
+
+### for more options for this command, just search for the help command followed by the command name
