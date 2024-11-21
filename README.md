@@ -248,3 +248,41 @@ C:\Users\John>shutdown
 ```
 
 ### for more options for this command, just search for the help command followed by the command name
+
+
+## General configuration and management commands
+
+12. create directory
+```bash
+C:\Users\John>mkdir directoryName
+```
+
+13. view directory contents in tree form
+```bash
+C:\Users\John>tree
+```
+```bash
+Directory listing for volume Acer
+Volume serial number: x00x-y00y
+C:.
+├───diretory1
+│ ├───subdiretory1
+│ ├───subdiretory1
+│ └───subdiretory1
+├───diretory2
+├───diretory3
+├───diretory4
+├───diretory5
+├───diretory6
+└───diretory7
+
+```
+14. create files
+```bash
+C:\Users\John>type nul> filename.extension
+```
+
+15. view file contents
+```bash
+C:\Users\John>type filename.extension
+```
