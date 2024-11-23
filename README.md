@@ -286,3 +286,58 @@ C:\Users\John>type nul> filename.extension
 ```bash
 C:\Users\John>type filename.extension
 ```
+
+16. write to a text file using CMD
+```bash
+C:\Users\John>copy con filename.extension
+```
+### When you finish writing, press Ctrl + z to save
+
+```bash
+C:\Users\John>copy con file1.txt
+this line was written using the cmd
+Overwrite writeme.txt? (Yes/No/All): y
+^Z
+        1 file(s) copied.
+```
+17. add text to a file that already has texts
+```bash
+C:\Users\John>copy filename.extension + con 
+```
+### When you finish writing, press Ctrl + z to save
+
+```bash
+C:\Users\John>copy file1.txt + con
+file1.txt
+con
+This is a new line
+^Z
+        1 file(s) copied.
+```
+
+18. copy file from a source to a destination
+```bash
+C:\Users\John>copy filename.extension directory
+1 file(s) copied.
+```
+
+## alternative commands
+
+### copy all .txt files
+```bash
+C:\Users\John>copy *.txt directory
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+       4 file(s) copied.
+```
+### copy all files of all types
+```bash
+C:\Users\John>copy *.* directory
+file1.txt
+file2.svg
+file3.pdf
+file4.png
+       4 file(s) copied.
+```
