@@ -321,6 +321,13 @@ C:\Users\John>copy filename.extension directory
 1 file(s) copied.
 ```
 
+## Exemple
+```bash
+C:\Users\John>copy C:\Users\John\testecopia.txt  C:\Users\John\Desktop\destination
+```
+
+
+
 ## alternative commands
 
 ### copy all .txt files
